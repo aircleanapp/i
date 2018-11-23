@@ -295,7 +295,8 @@
 					$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
-							location.hash = '';
+							location.href = ''; //changed from location.hash to avoid leaving # at end of url
+							
 						});
 
 				// Prevent clicks from inside article from bubbling.
