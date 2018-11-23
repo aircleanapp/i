@@ -7,6 +7,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <link rel="icon" type="image/png" href="images/favicon/favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="images/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
 	</head>
 	<body class="is-preload">
 
@@ -16,21 +36,23 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-diamond"></span>
+							<!--<span class="icon fa-globe"></span>-->
+							<img class="circle" src="images/fire.jpg" alt="Fire">
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>a World</h1>
-								<p>you would live in 25 years from now.</p>
+								<h1>Imagine yourself</h1>
+								<p>25 years from now.</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
+								<li><a href="#life">life</a></li>
 								<li><a href="#world">world</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#community">community</a></li>
+								<li><a href="#contact">contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
+								<li><a onclick="audio.play()" class="icon fa-music"></a></li>
 							</ul>
 						</nav>
 					</header>
@@ -38,33 +60,32 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
+						<!-- life -->
+							<article id="life">
+								<h2 class="major">life</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>Take a moment to imagine your future. 25 years from now. How would you feel, where would you live, with whom, how would you spend your time.</p>
-								<p>Now imagine the world around you, nature, oceans, plants, animals, human society. How would our <a href="#world">world</a> be a 100 years from now?</p>
+								<p>Now, imagine the <a href="#world">world</a></p>
 							</article>
 
 						<!-- world -->
 							<article id="world">
 								<h2 class="major">World</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>This is our World in 2118.</p>
-								<p>Planet Earth is ...</p>
+								<p>Now imagine the world around you, nature, oceans, plants, animals, human society. How would our planet fill a 100 years from now?</p>
 							</article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
+						<!-- community -->
+							<article id="community">
+								<h2 class="major">Community</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>We are a group of visionaries...</p>
+								<p>Circle of visionaries, dreamweavers, changemakers, visualizers, cocreators of reality.</p>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="post" action="mailto:demoaccount@null.net?Subject=Imagine%20contact%20form">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -158,7 +179,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 									<h4>Actions</h4>
 									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button primary">Sound</a></li>
 										<li><a href="#" class="button">Default</a></li>
 									</ul>
 									<ul class="actions stacked">
@@ -352,6 +373,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>var audio=new Audio('audio/imagine.mp3');</script>
 
 	</body>
 </html>
